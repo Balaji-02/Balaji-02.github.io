@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    /* background-color: #c4e6ebd4; */
+}
+body{
+    background: -webkit-linear-gradient(left, #73a8f1,rgb(239, 119, 255));
+}
+.hero{
+    position:relative;
+    width: 100%;
+    height: 100%; /*100vh*/
+    background-color: #c4e6ebd4;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(59, 153, 229);
+    
+}
+
+.detel p{
+    color: rgb(69, 69, 69);
+    line-height: 25px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    top: 35px;
+}
+
+.images:hover .girl{
+    left: 60%; 
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+.column-2a {
+    position:fixed;
+    /*float:right;*/
+    font-size:140%;
+    width: 87%;
+    height:450px;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    padding-bottom:60px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 2.5%;
+  }
+.table1{
+    border: 2px solid maroon;
+    width: 87%;
+    height: 45%;
+    align-self: center;
+}
+.table td,tr{ 
+    text-align: center;
+}
+
+.wrapper{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(23, 87, 117, 0.08);
+ }
